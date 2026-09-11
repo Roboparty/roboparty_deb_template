@@ -1,0 +1,13 @@
+Source: roboparty-package
+Section: libs
+Priority: optional
+Maintainer: RoboParty <2321901849@qq.com>
+Build-Depends: debhelper-compat (= 13), cmake
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: roboparty-package
+Architecture: any
+Depends: ${misc:Depends}
+Description: RoboParty package template
+ Minimal RoboParty CMake and Debian package template.

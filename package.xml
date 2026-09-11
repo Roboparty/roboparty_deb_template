@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>roboparty_package</name>
+  <version>0.1.0</version>
+  <description>RoboParty package template</description>
+  <maintainer email="2321901849@qq.com">RoboParty</maintainer>
+  <license>GPL-3.0-only</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>

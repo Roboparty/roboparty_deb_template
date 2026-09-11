@@ -1,0 +1,22 @@
+# environment
+.vscode/
+.idea/
+
+# CMake and ROS 2
+build/
+install/
+log/
+obj-*/
+
+# debhelper build outputs
+debian/files
+debian/debhelper-build-stamp
+debian/*.debhelper.log
+debian/*.substvars
+debian/roboparty-*/
+debian/.debhelper/
+
+# package artifacts
+*.buildinfo
+*.changes
+*.deb
